@@ -1,0 +1,106 @@
+
+
+img {
+    width:100px;height:120px;
+}
+
+body {
+    background-color: rgb(142, 183, 197);
+    
+  }
+
+
+  h1, h2 {
+    font-family: "Gill Sans", sans-serif;
+  }
+
+  .shows {
+
+    border: 5px solid #000000;
+    
+  }
+
+  .hobbies {
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+
+  }
+
+  #nav-id {
+    font-size: 10px;
+
+  }
+
+  .lists {
+    color: #8b1010;
+    background-color: bisque;
+    padding: 10px 10px 10px 50px;
+    margin-left: 40px;
+    margin-right: 700px;
+    text-align: left
+    ;
+
+    border: 5px solid #000000;
+    border-width: 7px;
+  }
+
+  .grid-container {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 5px solid #000000;
+    border-width: 7px;
+  }
+
+  .item-1 {
+    border:2px solid #000000;
+    background-color: aqua;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: center;
+  }
+  
+  .item-2 {
+    border:2px solid #000000;
+    background-color: aquamarine;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+  }
+  
+  .item-3 {
+    border:2px solid #000000;
+    background-color: aquamarine;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    text-align: center;
+  }
+  
+  .item-4 {
+    border:2px solid #000000;
+    text-align: center;
+    background-color: aqua;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .details {
+    background-color: rgb(255, 153, 153);
+    border: 5px solid #000000;
+    border-width: 7px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+  }
+
+  .head {
+    padding-left: 30px;
+    
+    margin-right: 20px;
+    background-color: rgb(205, 116, 238);
+    border: 5px solid #ffffff;
+    border-width: 7px;
+  }
+
